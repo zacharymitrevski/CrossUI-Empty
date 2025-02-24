@@ -39,10 +39,12 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button6")
-                .setLeft("13.714285714285714em")
-                .setTop("0.7619047619047619em")
+                .setLeft("0.7619047619047619em")
+                .setTop("4.571428571428571em")
                 .setWidth("12.876190476190477em")
                 .setCaption("Add Student")
+                .setFontColor("#000000")
+                .setImageClass("xui-icon-search")
                 .onClick([
                     {
                         "desc" : "Action 1",
