@@ -39,9 +39,8 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button6")
-                .setLocked(true)
-                .setLeft("1.5238095238095237em")
-                .setTop("5.333333333333333em")
+                .setLeft("13.714285714285714em")
+                .setTop("0.7619047619047619em")
                 .setWidth("12.876190476190477em")
                 .setCaption("Add Student")
                 .onClick([
