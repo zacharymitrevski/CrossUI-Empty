@@ -36,6 +36,25 @@ xui.Class('App', 'xui.Module',{
                 })
             );
             
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button6")
+                .setLeft("1.5238095238095237em")
+                .setTop("5.333333333333333em")
+                .setWidth("12.876190476190477em")
+                .setCaption("Add Student")
+                .onClick([
+                    {
+                        "desc" : "Action 1",
+                        "type" : "page",
+                        "target" : "App.FormLayout34",
+                        "args" : [true],
+                        "method" : "switch",
+                        "event" : 1
+                    }
+                ])
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
